@@ -1,0 +1,366 @@
+#wrapper-canvas canvas {
+    max-width: 100%;
+}
+
+.line{
+    background-color: #1788ae;
+}
+
+.word{
+    margin-top: 50px;
+}
+
+.exp{
+  margin-top: 50px;
+}
+
+img{
+  margin-bottom: 20px;
+}
+
+ /* .education-grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 20px; 
+}  
+
+.edu-item {
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .education-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  } 
+}  */
+
+
+
+
+.about-section {
+  width: 90%;
+  max-width: 1200px;
+  min-height: auto;
+  max-height: 90vh; /* Fit into screen height */
+  overflow-y: auto;
+  background: var(--lightDark);
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -45%) scale(0);
+  display: flex;
+  overflow: hidden;
+  z-index: 1000;
+  transition: transform 0.2s ease-in-out, left 0.2s ease-in-out;
+  padding: 20px;
+}
+
+.about-section.active {
+  transform: translate(-50%, -50%) scale(1);
+  left: 50%;
+  pointer-events: all;
+}
+
+.about-section .x-icon {
+  background: #27292d;
+  border-radius: 50%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 15px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+
+.about-section .x-icon:hover {
+  transform: rotate(90deg) scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-section .about-me {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.about-section .about-me .about-me-text {
+  /* width: 65%; */
+  /* margin: 0 auto; */
+  height: 100%;
+}
+
+.about-section .about-me .about-me-text .about-me-title {
+  color: #1788ae;
+}
+
+.about-section .about-me .about-me-text .mern {
+  margin-bottom: 2.2em;
+  margin-top: 2em;
+  color: #1788ae;
+}
+
+.about-section .about-me .about-me-text .top-skills-icons {
+  display: flex;
+  margin-top: 1.5em;
+  position: relative;
+}
+
+.about-section .illustration {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.about-section .illustration .coder-img {
+  width: 100%;
+}
+
+
+
+/* Close Button */
+.about-section .x-icon {
+  background: #27292d;
+  border-radius: 50%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 15px;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+
+.about-section .x-icon:hover {
+  transform: rotate(90deg) scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-section .x-icon img {
+  vertical-align: middle;
+  width: 50%;
+}
+
+/* Content Area */
+.about-section .about-me {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* .about-section .about-me .about-me-text {
+  width: 65%;
+  margin: 0 auto;
+} */
+
+/* Title Styles */
+.about-section .about-me .about-me-text .about-me-title {
+  color: #1788ae;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+/* Paragraph Text */
+.about-section .about-me .about-me-text .about-me-detail {
+  color: var(--light);
+  font-family: "Merriweather", serif;
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+}
+
+/* Skills Tags */
+.about-section .about-me .about-me-text ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.85em;
+  gap: 0.5em;
+  margin-bottom: 2em;
+}
+
+.about-section .about-me .about-me-text ul li {
+  border: 1px solid #444;
+  padding: 0.4em 0.8em;
+  border-radius: 50px;
+  color: var(--light);
+}
+
+/* MERN Stack Section */
+.about-section .about-me .about-me-text .mern {
+  color: #1788ae;
+  font-size: 1.5em;
+  margin: 2em 0 1em;
+}
+
+/* MERN Icons Container */
+.about-section .about-me .about-me-text .top-skills-icons {
+  display: flex;
+  margin-top: 1.5em;
+  position: relative;
+  gap: 2em;
+  /* justify-content: center; */
+}
+
+/* Individual Icons */
+.about-section .about-me .about-me-text .top-skills-icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: context-menu;
+}
+
+.about-section .about-me .about-me-text .top-skills-icons svg {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5em;
+}
+
+.about-section .about-me .about-me-text .top-skills-icons h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* Tooltips */
+.about-section .about-me .about-me-text .top-skills-icons .tooltip {
+  background-color: #8cc84b;
+  color: var(--dark);
+  padding: 0.5em 1.25em;
+  font-weight: 600;
+  border-radius: 50px;
+  position: absolute;
+  top: -3em;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.about-section .about-me .about-me-text .top-skills-icons div:hover .tooltip {
+  opacity: 1;
+}
+
+/* Specific tooltip colors */
+.about-section .about-me .about-me-text .top-skills-icons .mongodb-icon .tooltip {
+  background-color: #47a248;
+}
+
+.about-section .about-me .about-me-text .top-skills-icons .express-icon .tooltip {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.about-section .about-me .about-me-text .top-skills-icons .react-icon .tooltip {
+  background-color: #61dafb;
+}
+
+.about-section .about-me .about-me-text .top-skills-icons .node-icon .tooltip {
+  background-color: #8cc84b;
+}
+
+/* Illustration Section */
+.about-section .illustration {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section .illustration .coder-img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+  .about-section {
+    flex-direction: column;
+    height: auto;
+    padding: 2em 0;
+  }
+  
+  .about-section .about-me-text {
+    width: 90% !important;
+  }
+  
+  .about-section .illustration {
+    margin-top: 2em;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .about-section .about-me-text ul {
+    justify-content: center;
+  }
+  
+  .about-section .about-me-text .about-me-title,
+  .about-section .about-me-text .mern {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-section .about-me-text .top-skills-icons {
+    font-size: 0.8em;
+  }
+  
+  .about-section .about-me-text .top-skills-icons svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* About Section Styles */
+.about-section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 90%;
+  max-width: 1200px;
+  max-height: 90vh;
+  background: #191919;
+  border-radius: 10px;
+  padding: 2rem;
+  z-index: 50;
+  opacity: 0;
+  transition: all 0.3s ease;
+  overflow-y: auto;
+}
+
+.about-section.active {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+
+
+/* Close Button */
+.x-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  z-index: 60;
+  transition: transform 0.2s ease;
+}
+
+.x-icon:hover {
+  transform: rotate(90deg);
+}
+
+
