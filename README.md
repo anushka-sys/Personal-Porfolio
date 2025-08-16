@@ -24,11 +24,15 @@ Matter.js, Swiper.js, Animation, Scroll Reveal, Font Nunito, JSON
 ## 📌 Sneak Peek of Main Page 🙈
 
 ![Screenshot of Portfolio](assets/screenshot-main.png)
-![Screenshot of Portfolio](assets/about-section.png)
+----
+![Screenshot of Portfolio](assets/let.png)
 
 ---
 
 ## 📬 Contact Me
-**Your Name**  
-📧 [your.email@example.com](mailto:anushka.wable2002@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/anushka-wable-245256232/) | 🐦 [Twitter](https://x.com/Anushks361472)
+**Anushka Wable**  
+## 📬 Contact Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anushka-wable-245256232/)
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anushka.wable2002@gmail.com)
+[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Anushks361472)
+
