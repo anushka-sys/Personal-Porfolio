@@ -47,11 +47,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-document.querySelector('.resume-btn').addEventListener('click', function () {
-  const link = document.createElement('a');
-  link.href = 'resume.pdf'; // path to your PDF file
-  link.download = 'Anushka_Wable_Resume.pdf'; // filename for download
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-});
+
