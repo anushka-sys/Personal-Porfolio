@@ -38,6 +38,8 @@ Matter.js, Swiper.js, Animation, Scroll Reveal, Font Nunito, JSON
 ## 📬 Contact Me
 **Anushka Wable**  
 
+Give a star to my repository ⭐
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anushka-wable-245256232/)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anushka.wable2002@gmail.com)
 [![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Anushks361472)
